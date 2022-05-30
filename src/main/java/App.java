@@ -24,6 +24,11 @@ public class App {
             return gson.toJson(department);
         });
 
+        //get department
+        get("/Department", "application/json", (req, res) -> {
+            return gson.toJson(sql2oDepartmentDao.findAll());
+        });
+
         //FILTERS
         after((req, res) ->{
             res.type("application/json");
