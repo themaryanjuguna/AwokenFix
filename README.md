@@ -109,6 +109,7 @@ CREATE DATABASE awoken_test WITH TEMPLATE awoken;
 "title": "Employee of the Month Award",
 "content": "Award goes out to Tim"
 }
+
 #### Response
 {
     "id": 3,
