@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4441117a-ae8c-49c2-ad3e-10123875542e" name="Changes" comment="Create create.sql and drop.sql">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drop.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ApiException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/NewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" afterDir="false" />
-    </list>
+    <list default="true" id="4441117a-ae8c-49c2-ad3e-10123875542e" name="Changes" comment="Various updated files. Readme&#10;created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653937113780</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Various updated files. Readme&#10;created">
+      <created>1653937198838</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1653937198838</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +283,7 @@
     <MESSAGE value="Create an endpoint that adds news in the API." />
     <MESSAGE value="Create an endpoint that retrieves news in the API." />
     <MESSAGE value="Create create.sql and drop.sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create create.sql and drop.sql" />
+    <MESSAGE value="Various updated files. Readme&#10;created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Various updated files. Readme&#10;created" />
   </component>
 </project>
