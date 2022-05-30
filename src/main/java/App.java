@@ -29,6 +29,14 @@ public class App {
             return gson.toJson(sql2oDepartmentDao.findAll());
         });
 
+        //add new User
+        post("/User/new", "application/json", (req, res) -> {
+            User user= gson.fromJson(req.body(), User.class);
+            sql2oUserDao.save(user);
+            res.status(201);
+            return gson.toJson(user);
+        });
+
         //FILTERS
         after((req, res) ->{
             res.type("application/json");
