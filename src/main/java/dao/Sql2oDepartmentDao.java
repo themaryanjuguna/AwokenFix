@@ -28,5 +28,14 @@ public class Sql2oDepartmentDao implements DepartmentDao {
             departments.setId(id);
         } catch (Sql2oException e) { System.out.println("e"); }
     }
-    
+
+    @Override
+    public List<Department> findAll(){
+        try(Connection connection = sql2o.open()) {
+            return connection.createQuery("SELECT * FROM departments")
+                    .throwOnMappingFailure(false)
+                    .executeAndFetch(Department.class);
+        }
+    }
+
 }
