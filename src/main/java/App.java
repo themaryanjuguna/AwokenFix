@@ -42,16 +42,24 @@ public class App {
             return gson.toJson(sql2oUserDao.findAll());
         });
 
+        //add new News
+        post("/News/new", "application/json", (req, res) -> {
+            News news = gson.fromJson(req.body(), News.class);
+            sql2oNewsDao.save(news);
+            res.status(201);
+            return gson.toJson(news);
+        });
+
+        //get New
+        get("/News", "application/json", (req, res) -> {
+            return gson.toJson(NewsDao.allNews());
+        });
+
 
         //FILTERS
         after((req, res) ->{
             res.type("application/json");
         });
-
-
-
-
-
     }
 
 }
