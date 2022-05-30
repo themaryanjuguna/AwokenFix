@@ -29,7 +29,7 @@ public class Sql2oNewsDao implements NewsDao {
         } catch (Sql2oException e) { System.out.println("save news");}
     }
 
-    public static List<News> allNews(){
+    public List<News> allNews(){
         try(Connection connection = sql2o.open()) {
             return connection.createQuery("SELECT * FROM news")
                     .throwOnMappingFailure(false)

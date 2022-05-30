@@ -8,9 +8,7 @@ public interface NewsDao {
     //create news
     void save(News news);
 
-    static List<News> allNews() {
-        return null;
-    }
+    List<News> allNews();
 
     News findById(int id);
     List<News> allDepartmentNews(int Id);

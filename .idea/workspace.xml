@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4441117a-ae8c-49c2-ad3e-10123875542e" name="Changes" comment="Create create.sql and drop.sql">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/NewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oNewsDao.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AwokenFix" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29szVAQJv5TKXs9QGfCQYBU3xG6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="AwokenFix.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AwokenFix [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.AwokenFix [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4441117a-ae8c-49c2-ad3e-10123875542e" name="Changes" comment="" />
+      <created>1653916620691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653916620691</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add database credentials">
+      <created>1653917487854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653917487854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create a user blueprint">
+      <created>1653917604993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653917604993</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create a news blueprint">
+      <created>1653917658937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653917658937</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create a Department blueprint with getters and setters">
+      <created>1653917737662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653917737663</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add methods that will be used to add, retrieve and edit data in the department's relation">
+      <created>1653917858966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653917858966</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add methods that will be used to add, retrieve and edit data in the news relation">
+      <created>1653917927519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653917927519</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add methods that will be used to add, retrieve and edit data in the user's relation">
+      <created>1653918007840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653918007840</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create query to insert departments values.">
+      <created>1653918288613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653918288613</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create query to retrieve all departments.">
+      <created>1653918393421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653918393421</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create query to delete a single departments based on it's ID">
+      <created>1653918485051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653918485051</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create query to delete all departments.">
+      <created>1653918576860</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653918576860</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create queries that will insert, retrieve &amp; update the news relation.">
+      <created>1653919213338</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919213338</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create queries that will insert, retrieve &amp; update the user relation.">
+      <created>1653919437920</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919437920</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create an endpoint that adds a department to the API.">
+      <created>1653921348238</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921348238</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Endpoints that retrieves all departments in the API">
+      <created>1653921508768</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921508768</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create an endpoint that adds a user to the API.">
+      <created>1653921605923</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921605923</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create an endpoint that retrieves all users in the API.">
+      <created>1653921695262</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921695262</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create an endpoint that retrieves news in the API.">
+      <created>1653921861568</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921861568</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create create.sql and drop.sql">
+      <created>1653937113780</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653937113780</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add database credentials" />
+    <MESSAGE value="create a user blueprint" />
+    <MESSAGE value="create a news blueprint" />
+    <MESSAGE value="create a Department blueprint with getters and setters" />
+    <MESSAGE value="Add methods that will be used to add, retrieve and edit data in the department's relation" />
+    <MESSAGE value="Add methods that will be used to add, retrieve and edit data in the news relation" />
+    <MESSAGE value="Add methods that will be used to add, retrieve and edit data in the user's relation" />
+    <MESSAGE value="Create query to insert departments values." />
+    <MESSAGE value="Create query to retrieve all departments." />
+    <MESSAGE value="Create query to delete a single departments based on it's ID" />
+    <MESSAGE value="Create query to delete all departments." />
+    <MESSAGE value="Create queries that will insert, retrieve &amp; update the news relation." />
+    <MESSAGE value="Create queries that will insert, retrieve &amp; update the user profile." />
+    <MESSAGE value="Create queries that will insert, retrieve &amp; update the user relation." />
+    <MESSAGE value="Create an endpoint that adds a department to the API." />
+    <MESSAGE value="Endpoints that retrieves all departments in the API" />
+    <MESSAGE value="Create an endpoint that adds a user to the API." />
+    <MESSAGE value="Create an endpoint that retrieves all users in the API." />
+    <MESSAGE value="Create an endpoint that adds news in the API." />
+    <MESSAGE value="Create an endpoint that retrieves news in the API." />
+    <MESSAGE value="Create create.sql and drop.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create create.sql and drop.sql" />
+  </component>
+</project>
