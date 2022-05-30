@@ -37,6 +37,12 @@ public class App {
             return gson.toJson(user);
         });
 
+        //get User
+        get("/User", "application/json", (req, res) -> {
+            return gson.toJson(sql2oUserDao.findAll());
+        });
+
+
         //FILTERS
         after((req, res) ->{
             res.type("application/json");
